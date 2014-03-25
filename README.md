@@ -1,2 +1,0 @@
-#digits detection with OpencvPython
-
