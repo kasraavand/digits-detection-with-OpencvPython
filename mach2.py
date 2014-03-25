@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 ##read distinced digit
-img1 = cv2.imread('4.png')
+img1 = cv2.imread('distinc digits/4.png')#for exapmle 4.ping
 hh=img1.shape[0]
 ww=img1.shape[1]
 #gray1 = cv2.cvtColor(img1,cv2.COLOR_BGR2GRAY)
@@ -10,7 +10,7 @@ ww=img1.shape[1]
 #ret1, thresh1 = cv2.threshold(blur1, 127, 255,0)
 
 ##read main image
-img2 = cv2.imread('pi.png')
+img2 = cv2.imread('mainpic.png')
 gray2 = cv2.cvtColor(img2,cv2.COLOR_BGR2GRAY)
 blur2 = cv2.GaussianBlur(gray2,(5,5),0)
 ret, thresh2 = cv2.threshold(blur2, 127, 255,0)
@@ -27,5 +27,6 @@ for cnt in contours:
    cv2.rectangle(img2,(x,y),(x+w,y+h),(0,0,255),2)
 
 cv2.imshow('norm',img2)
+cv2.imwrite('result.png',img2)
 key = cv2.waitKey(0)
 
