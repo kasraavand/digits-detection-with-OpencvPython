@@ -1,4 +1,4 @@
-#Simple digit ditection in python, using OpenCV
+#Simple digit detection in python, using OpenCV
 
 ###sample raw image
 
