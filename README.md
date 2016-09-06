@@ -7,4 +7,6 @@
 
 ###Result (searching for number 4):
 
-![result](https://cloud.githubusercontent.com/assets/5694520/12454152/8613af64-bfab-11e5-92ae-309a3284dd9d.png)
+![test 1](https://cloud.githubusercontent.com/assets/5694520/18258407/4ec3c9e2-73ea-11e6-8ec8-8fadfeeadb06.png)
+
+![test 2](https://cloud.githubusercontent.com/assets/5694520/18258412/6cbeddf6-73ea-11e6-8bc5-4dae230a89e9.png)
